@@ -74,7 +74,7 @@ type gorillaEncoder struct {
 	trailing uint8
 }
 
-// encodePoints is not goroutine safe. It's caller's responsibility to lock it.
+// encodePoint is not goroutine safe. It's caller's responsibility to lock it.
 func (e *gorillaEncoder) encodePoint(point *DataPoint) error {
 	var tDelta uint64
 

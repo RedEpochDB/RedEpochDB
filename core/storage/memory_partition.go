@@ -216,7 +216,7 @@ func (m *memoryMetric) insertPoint(point *DataPoint) {
 	m.outOfOrderPoints = append(m.outOfOrderPoints, point)
 }
 
-// selectPoints returns a last one.
+// selectPoint returns a last one.
 func (m *memoryMetric) selectPoint() *DataPoint {
 	size := atomic.LoadInt64(&m.size)
 	m.mu.RLock()
