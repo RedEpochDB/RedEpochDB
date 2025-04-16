@@ -1,6 +1,6 @@
 module github.com/RedTimeDB/RedTimeDB
 
-go 1.18
+go 1.24.0
 
 require (
 	github.com/panjf2000/ants/v2 v2.11.3
