@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	github.com/panjf2000/ants/v2 v2.11.3
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.0
 	github.com/valyala/bytebufferpool v1.0.0
 	go.uber.org/automaxprocs v1.6.0
 	go.uber.org/zap v1.24.0
